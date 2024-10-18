@@ -38,7 +38,13 @@ button{
 }
 .n-advice{
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 8px;
   text-align: center;
 
+}
+b{
+  color: #2c3a47;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
 }

@@ -12,9 +12,10 @@ function App() {
     setCount(count+1)
    }
 
-useEffect(()=>{
-  get_advice()
-},[])
+   useEffect(()=>{
+    get_advice()
+  },[])
+ 
 
   return (
     <>
@@ -23,7 +24,7 @@ useEffect(()=>{
       <div className="center">
       <button onClick={get_advice}>Get Advice</button>
       </div>
-      <div className="n-advice">You have read {count} pieces of advice</div>
+      <div className="n-advice">You have read  <b>{count}</b> pieces of advice</div>
     </div>
     </>
   )
